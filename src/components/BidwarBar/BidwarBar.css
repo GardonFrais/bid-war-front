@@ -2,24 +2,29 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-items: center;
 
-  width: 500px;
+  width: 400px;
   height: 50px;
   border: 1px solid black;
 }
 
-.verlan {
+.first-incentive {
+  width: 50%;
   text-align: start;
-  white-space: nowrap;
   background-color: rgb(51, 170, 51);
   background-size: 100%;
   line-height: 50px;
 }
 
-.anglais {
+.second-incentive {
+  width: 50%;
   text-align: end;
 }
 
 .label {
+  font-family: Oswald;
+  font-weight: 600;
+  white-space: nowrap;
   padding: 5px;
 }
